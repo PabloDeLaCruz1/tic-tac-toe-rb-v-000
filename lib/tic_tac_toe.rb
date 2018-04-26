@@ -50,11 +50,10 @@ end
 def play(board)
     counter = 1 
     while counter < 10 
-      if over?(board)
         turn(board)
         counter += 1
-      end
     end
+    over?(board)
 end
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
