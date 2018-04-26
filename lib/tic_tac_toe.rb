@@ -53,7 +53,7 @@ def play(board)
     turn(board)
     counter += 1
   end
-  
+  over?(board)
 end
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
