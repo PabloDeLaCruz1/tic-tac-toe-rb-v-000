@@ -53,6 +53,7 @@ def play(board)
       if over?(board)
         turn(board)
         counter += 1
+      end
     end
 end
 def won?(board)
