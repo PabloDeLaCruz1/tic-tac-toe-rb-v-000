@@ -51,11 +51,11 @@ def play(board)
   until over?(board)
     
   
-    counter = 1 
-    while counter < 10 
+    # counter = 1 
+    # while counter < 10 
         turn(board)
-        counter += 1
-    end
+    #     counter += 1
+    # end
   end
 end
 
