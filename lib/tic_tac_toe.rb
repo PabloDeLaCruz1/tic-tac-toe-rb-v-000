@@ -48,7 +48,7 @@ end
 
 # Define your play method below
 def play(board)
-  if over?(board)
+  until over?(board)
     break
   end
     counter = 1 
