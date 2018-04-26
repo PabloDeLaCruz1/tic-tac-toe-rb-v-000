@@ -26,9 +26,9 @@ end
    user_input.to_i - 1
  end
  
- def move(index, player = "X")
-   @board[index] = player
- end
+def move(board, index, current_player = "X")
+  board[index] = current_player
+end
  
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
