@@ -48,14 +48,8 @@ end
 
 # Define your play method below
 def play(board)
-  until over?(board)
-    
-  
-    # counter = 1 
-    # while counter < 10 
+  while !over?(board)
         turn(board)
-    #     counter += 1
-    # end
   end
 end
 
