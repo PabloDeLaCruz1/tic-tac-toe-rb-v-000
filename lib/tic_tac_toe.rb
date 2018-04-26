@@ -52,9 +52,9 @@ def play(board)
         turn(board)
   end
   
-  if winner == "X"
+  if winner(board) == "X"
      puts "Congratulations X!"
-   elsif winner == "O"
+   elsif winner(board) == "O"
      puts "Congratulations O!"
    else
      puts "Cat's Game!"
